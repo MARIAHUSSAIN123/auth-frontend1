@@ -6,10 +6,11 @@ import "./App.css";
 function App() {
   return (
     <HashRouter>
-      <Routes>
-        <Route path="/" element={<Login />} />
-        <Route path="/signup" element={<Signup />} />
-      </Routes>
+     <Routes>
+  <Route path="/" element={<Signup />} />
+  <Route path="/signup" element={<Signup />} /> 
+  <Route path="/login" element={<Login />} />
+</Routes>
     </HashRouter>
   );
 }
